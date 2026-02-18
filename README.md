@@ -39,29 +39,33 @@ Max Drawdown (RL): -28.18%
 
 ---
 
-## 📁 Estrutura do repositório
+## 📁 Repository Structure
 
 ```
 rl-llm-portfolio-agent/
-  README.md
-  requirements.txt
-  notebooks/
-    01_mvp_local.ipynb
-  src/
-    data.py
-    env_portfolio.py
-    train_rl.py
-    evaluate.py
-    plots.py
-  reports/
-    REPORT.md
-    figures/
-      normalized_prices.png
-      equity_curve_baseline.png
-      equity_curve_baseline_vs_rl.png
-  docs/
-    architecture.mmd
+│
+├── notebooks/
+│   └── 01_mvp_local.ipynb        # Initial MVP experimentation
+│
+├── src/
+│   ├── data.py                  # Data loading and preprocessing
+│   ├── env_portfolio.py         # Custom RL portfolio environment
+│   ├── train_rl.py              # Training loop and policy optimization
+│   ├── evaluate.py              # Performance evaluation metrics
+│   └── plots.py                 # Visualization utilities
+│
+├── reports/
+│   ├── REPORT.md                # Technical report and results discussion
+│   └── figures/
+│       ├── normalized_prices.png
+│       ├── equity_curve_baseline.png
+│       └── equity_curve_baseline_vs_rl.png
+│
+└── docs/
+    └── architecture.mmd         # System architecture diagram (Mermaid)
 ```
+
+
 
 ---
 
