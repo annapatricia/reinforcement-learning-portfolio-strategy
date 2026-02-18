@@ -41,6 +41,7 @@ Max Drawdown (RL): -28.18%
 
 ## 📁 Estrutura do repositório
 
+```
 rl-llm-portfolio-agent/
   README.md
   requirements.txt
@@ -60,6 +61,7 @@ rl-llm-portfolio-agent/
       equity_curve_baseline_vs_rl.png
   docs/
     architecture.mmd
+```
 
 ---
 
